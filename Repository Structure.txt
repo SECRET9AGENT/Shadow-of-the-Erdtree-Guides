@@ -1,0 +1,15 @@
+shadow-of-erdtree-guides/
+├── index.html          # Main page
+├── guides/            # Guide pages folder
+│   ├── bosses.html
+│   ├── weapons.html
+│   └── locations.html
+├── css/
+│   └── style.css      # Main styles
+├── js/
+│   └── main.js        # JavaScript
+├── assets/
+│   ├── images/        # All screenshots/diagrams
+│   └── fonts/         # Custom fonts
+├── README.md          # Project info
+└── .gitignore         # Ignore node_modules, etc.

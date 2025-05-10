@@ -1,0 +1,15 @@
+// Simple interactive elements
+document.addEventListener('DOMContentLoaded', () => {
+    // Accordion functionality for guide sections
+    const guides = document.querySelectorAll('.guide-grid article');
+    guides.forEach(guide => {
+        guide.addEventListener('click', () => {
+            guide.classList.toggle('active');
+        });
+    });
+
+    // Google Analytics (replace with your ID)
+    if (typeof gtag !== 'undefined') {
+        gtag('config', 'GA_MEASUREMENT_ID');
+    }
+});

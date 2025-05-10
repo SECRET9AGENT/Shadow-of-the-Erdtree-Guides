@@ -1,0 +1,59 @@
+/* Base Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #0f0e0e;
+    color: #e8e6e3;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #1a1a1a, #2e2e2e);
+    padding: 2rem;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'MedievalSharp', cursive;
+    color: #d4af37;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #e8e6e3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Guide Sections */
+.featured-guide {
+    max-width: 900px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.guide-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+}

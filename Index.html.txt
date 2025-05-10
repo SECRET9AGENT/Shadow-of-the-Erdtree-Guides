@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow of the Erdtree: Comprehensive Guides</title>
+    <meta name="description" content="Unofficial fan guides for Elden Ring's Shadow of the Erdtree DLC">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .disclaimer {
+            background: #222;
+            padding: 10px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <!-- Legal Disclaimer Banner -->
+    <div class="disclaimer">
+        This is an unofficial fan site. All game content and assets are property of FromSoftware and Bandai Namco.
+    </div>
+
+    <header>
+        <h1>SHADOW OF THE ERDTREE GUIDES</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="guides/bosses.html">Boss Guides</a></li>
+                <li><a href="guides/weapons.html">Weapons</a></li>
+                <li><a href="guides/locations.html">Locations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="featured-guide">
+            <h2>Latest Guide: Messmer the Impaler</h2>
+            <img src="assets/images/messmer-guide.jpg" alt="Messmer Boss Fight">
+            <p>Learn how to defeat this challenging DLC boss with our step-by-step strategy...</p>
+            <a href="guides/bosses.html#messmer" class="btn">Read Guide</a>
+        </section>
+
+        <section class="quick-links">
+            <h2>Popular Guides</h2>
+            <div class="guide-grid">
+                <article>
+                    <h3>Scadutree Fragments</h3>
+                    <p>All fragment locations and upgrades</p>
+                </article>
+                <article>
+                    <h3>New Weapon Tier List</h3>
+                    <p>Best DLC weapons ranked</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Shadow of the Erdtree Guides - Unofficial Fan Resource</p>
+        <p>Not affiliated with FromSoftware or Bandai Namco</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
